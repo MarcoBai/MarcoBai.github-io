@@ -13,8 +13,8 @@ body {
 			h1{ 
 				color:#00000;
 				font-Size: 3em;
-				font-family: 'Merriweather', serif;
-			}
+				font-family:'Merriweather', serif;
+}
 			ul {
 			list-style-type: none;
 			padding: 0;
@@ -43,4 +43,37 @@ body {
 			
 			#nav li a:hover:not(.active) {
 			color: orange;
+}
+			#nav li a:active {
+			color: yellow;
+}
+
+			img { 
+			float:left;
+			}
+			
+			p, hr{ clear:both;} 
+			
+			#handsome {
+			list-style-type: none;
+			}
+			
+			table, th, td {
+			border: 1px solid orange;
+			border-collapse: collapse;
+}
+			th, td {
+			padding: 19px;
+			text-align: left;
+}
+}
+			table tr:nth-child(one) {
+			background-color: yellow;
+}
+			table tr:nth-child(two) {
+			background-color: white;
+}
+			table th {
+			color: white;
+			background-color: orange;
 }
