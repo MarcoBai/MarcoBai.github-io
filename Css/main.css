@@ -1,79 +1,188 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 body {
+
 			/*background-color: beige;*/
+
 			background-color: #F5F5DC;
+
 			Margin-left: 10%;
+
 			Margin-right: 10%;
+
 			border:10px solid black;
+
 			padding: 10px 10px 10px 10px;
+
 			font-family:serif;
+
 			color: orange; 
 
+
+
 }
+
 			h1{ 
+
 				color:#00000;
+
 				font-Size: 3em;
+
 				font-family:'Merriweather', serif;
+
 }
+
 			ul {
+
 			list-style-type: none;
+
 			padding: 0;
+
 			
+
 }
+
 			#nav li {
+
 			float: left;
+
 			display:black;
+
 			list-style-type: none;
+
 			background-color: purple;
+
 			margin-right: 10px;
+
 }
+
+
 
 			#nav li a {
+
 			color: #000000;
+
 			text-align: center;
+
 			padding: 14px 16px;
+
 			text-decoration: none;
-}
-			#nav li a:visited { 
-			color: white;
-}
-			#nav li a:link{
-			color: pink
-}
-			
-			#nav li a:hover:not(.active) {
-			color: orange;
-}
-			#nav li a:active {
-			color: yellow;
+
 }
 
-			img { 
-			float:left;
-			}
-			
-			p, hr{ clear:both;} 
-			
-			#handsome {
-			list-style-type: none;
-			}
-			
-			table, th, td {
-			border: 1px solid orange;
-			border-collapse: collapse;
-}
-			th, td {
-			padding: 19px;
-			text-align: left;
-}
-}
-			table tr:nth-child(one) {
-			background-color: yellow;
-}
-			table tr:nth-child(two) {
-			background-color: white;
-}
-			table th {
+			#nav li a:visited { 
+
 			color: white;
+
+}
+
+			#nav li a:link{
+
+			color: pink
+
+}
+
+			
+
+			#nav li a:hover:not(.active) {
+
+			color: orange;
+
+}
+
+			#nav li a:active {
+
+			color: yellow;
+
+}
+
+
+			
+
+			p, hr{ clear:both;} 
+
+			
+
+			#handsome {
+
+			list-style-type: none;
+
+			}
+
+			
+
+			table, th, td {
+
+			border: 1px solid orange;
+
+			border-collapse: collapse;
+
+}
+
+			th, td {
+
+			padding: 19px;
+
+			text-align: left;
+
+}
+
+}
+
+			table tr:nth-child(one) {
+
+			background-color: yellow;
+
+}
+
+			table tr:nth-child(two) {
+
+			background-color: white;
+
+}
+
+			table th {
+
+			color: white;
+
 			background-color: orange;
+
+}
+
+	
+/*
+			filter:
+			none
+			blur
+			brightness	
+			contrast
+			drop-shadow
+			grayscale
+			hue-rotate
+			invert
+			opacity
+			saturate
+			sepia
+			url
+*/
+			
+
+			img.pic1 {
+			filter:contrast(150%);
+			-webkit-filter: contrast(150%);
+}
+			div {
+			background: none;
+			position: relative;
+			-webkit-animation: mymove 7s alternate infinite; 			
+			animation: mymove 7s alternate infinite;
+			font-size: 15px;
+}			
+			@-webkit-keyframes mymove {
+			from {left:0px;}
+			to {left:500px;}
+}
+			@keyframes mymove {
+			from {left:0px;}
+			to {left:500px;}
 }
